@@ -32,3 +32,6 @@ beta_spread <- ap_topics %>%
   mutate(log_ratio = log2(topic2 / topic1))
 
 beta_spread
+
+patterns_gamma <- tidy(tactical_patterns_lda, matrix = "gamma")
+patterns_gamma
